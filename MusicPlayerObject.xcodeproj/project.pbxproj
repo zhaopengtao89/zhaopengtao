@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0721E3191DBC9200FE406F /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC0721E0191DBC9200FE406F /* 梁静茹-偶阵雨.lrc */; };
+		CC0721E4191DBC9200FE406F /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC0721E1191DBC9200FE406F /* 林俊杰-背对背拥抱.lrc */; };
+		CC0721E5191DBC9200FE406F /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC0721E2191DBC9200FE406F /* 情非得已.lrc */; };
+		CC0721E7191DBCD000FE406F /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0721E6191DBCD000FE406F /* QYViewController.m */; };
+		CC0ADE511919EEE200835A63 /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE4C1919EEE200835A63 /* 梁静茹-偶阵雨.mp3 */; };
+		CC0ADE521919EEE200835A63 /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE4D1919EEE200835A63 /* 林俊杰-背对背拥抱.mp3 */; };
+		CC0ADE531919EEE200835A63 /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE4E1919EEE200835A63 /* 情非得已.mp3 */; };
+		CC0ADE541919EEE200835A63 /* 倩女幽魂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE4F1919EEE200835A63 /* 倩女幽魂.mp3 */; };
+		CC0ADE551919EEE200835A63 /* My All.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE501919EEE200835A63 /* My All.mp3 */; };
+		CC0ADE571919F82E00835A63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0ADE561919F82E00835A63 /* AVFoundation.framework */; };
+		CC0ADE5B191A5D2D00835A63 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE5A191A5D2D00835A63 /* circle.png */; };
+		CC0ADE5D191A5D5900835A63 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE5C191A5D5900835A63 /* play.png */; };
+		CC0ADE5F191A733900835A63 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0ADE5E191A733900835A63 /* menu.png */; };
 		CC60420B1918F0DC00ACE304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC60420A1918F0DC00ACE304 /* Foundation.framework */; };
 		CC60420D1918F0DC00ACE304 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC60420C1918F0DC00ACE304 /* CoreGraphics.framework */; };
 		CC60420F1918F0DC00ACE304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC60420E1918F0DC00ACE304 /* UIKit.framework */; };
@@ -14,13 +27,23 @@
 		CC6042171918F0DC00ACE304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6042161918F0DC00ACE304 /* main.m */; };
 		CC60421B1918F0DC00ACE304 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC60421A1918F0DC00ACE304 /* QYAppDelegate.m */; };
 		CC60421E1918F0DC00ACE304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC60421C1918F0DC00ACE304 /* Main.storyboard */; };
-		CC6042211918F0DC00ACE304 /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6042201918F0DC00ACE304 /* QYViewController.m */; };
 		CC6042231918F0DC00ACE304 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6042221918F0DC00ACE304 /* Images.xcassets */; };
 		CC60422A1918F0DC00ACE304 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6042291918F0DC00ACE304 /* XCTest.framework */; };
 		CC60422B1918F0DC00ACE304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC60420A1918F0DC00ACE304 /* Foundation.framework */; };
 		CC60422C1918F0DC00ACE304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC60420E1918F0DC00ACE304 /* UIKit.framework */; };
 		CC6042341918F0DC00ACE304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC6042321918F0DC00ACE304 /* InfoPlist.strings */; };
 		CC6042361918F0DC00ACE304 /* MusicPlayerObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6042351918F0DC00ACE304 /* MusicPlayerObjectTests.m */; };
+		CC6042411918F4C200ACE304 /* ImageBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC6042401918F4C200ACE304 /* ImageBackground.jpg */; };
+		CC60424B191903C600ACE304 /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604242191903C600ACE304 /* all.png */; };
+		CC60424C191903C600ACE304 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604243191903C600ACE304 /* left.png */; };
+		CC60424D191903C600ACE304 /* leftan.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604244191903C600ACE304 /* leftan.png */; };
+		CC60424F191903C600ACE304 /* random.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604246191903C600ACE304 /* random.png */; };
+		CC604250191903C600ACE304 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604247191903C600ACE304 /* right.png */; };
+		CC604251191903C600ACE304 /* rightan.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604248191903C600ACE304 /* rightan.png */; };
+		CC604252191903C600ACE304 /* single.png in Resources */ = {isa = PBXBuildFile; fileRef = CC604249191903C600ACE304 /* single.png */; };
+		CC604253191903C600ACE304 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CC60424A191903C600ACE304 /* stop.png */; };
+		CC9340BC191B2623002BB30F /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9340BB191B2623002BB30F /* snow.png */; };
+		CCC1743D1919098100F9B9F3 /* backgroundImage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCC1743C1919098100F9B9F3 /* backgroundImage5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0721E0191DBC9200FE406F /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		CC0721E1191DBC9200FE406F /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		CC0721E2191DBC9200FE406F /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		CC0721E6191DBCD000FE406F /* QYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CC0ADE4C1919EEE200835A63 /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		CC0ADE4D1919EEE200835A63 /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		CC0ADE4E1919EEE200835A63 /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		CC0ADE4F1919EEE200835A63 /* 倩女幽魂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "倩女幽魂.mp3"; sourceTree = "<group>"; };
+		CC0ADE501919EEE200835A63 /* My All.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My All.mp3"; sourceTree = "<group>"; };
+		CC0ADE561919F82E00835A63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CC0ADE5A191A5D2D00835A63 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		CC0ADE5C191A5D5900835A63 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		CC0ADE5E191A733900835A63 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		CC6042071918F0DC00ACE304 /* MusicPlayerObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC60420A1918F0DC00ACE304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC60420C1918F0DC00ACE304 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,13 +82,23 @@
 		CC60421A1918F0DC00ACE304 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
 		CC60421D1918F0DC00ACE304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC60421F1918F0DC00ACE304 /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
-		CC6042201918F0DC00ACE304 /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
 		CC6042221918F0DC00ACE304 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC6042281918F0DC00ACE304 /* MusicPlayerObjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerObjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6042291918F0DC00ACE304 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CC6042311918F0DC00ACE304 /* MusicPlayerObjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPlayerObjectTests-Info.plist"; sourceTree = "<group>"; };
 		CC6042331918F0DC00ACE304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC6042351918F0DC00ACE304 /* MusicPlayerObjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerObjectTests.m; sourceTree = "<group>"; };
+		CC6042401918F4C200ACE304 /* ImageBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImageBackground.jpg; sourceTree = "<group>"; };
+		CC604242191903C600ACE304 /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
+		CC604243191903C600ACE304 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		CC604244191903C600ACE304 /* leftan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftan.png; sourceTree = "<group>"; };
+		CC604246191903C600ACE304 /* random.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = random.png; sourceTree = "<group>"; };
+		CC604247191903C600ACE304 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		CC604248191903C600ACE304 /* rightan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightan.png; sourceTree = "<group>"; };
+		CC604249191903C600ACE304 /* single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = single.png; sourceTree = "<group>"; };
+		CC60424A191903C600ACE304 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		CC9340BB191B2623002BB30F /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		CCC1743C1919098100F9B9F3 /* backgroundImage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0ADE571919F82E00835A63 /* AVFoundation.framework in Frameworks */,
 				CC60420D1918F0DC00ACE304 /* CoreGraphics.framework in Frameworks */,
 				CC60420F1918F0DC00ACE304 /* UIKit.framework in Frameworks */,
 				CC60420B1918F0DC00ACE304 /* Foundation.framework in Frameworks */,
@@ -79,6 +126,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0ADE4B1919EEC200835A63 /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				CC0ADE4C1919EEE200835A63 /* 梁静茹-偶阵雨.mp3 */,
+				CC0ADE4D1919EEE200835A63 /* 林俊杰-背对背拥抱.mp3 */,
+				CC0721E0191DBC9200FE406F /* 梁静茹-偶阵雨.lrc */,
+				CC0721E1191DBC9200FE406F /* 林俊杰-背对背拥抱.lrc */,
+				CC0721E2191DBC9200FE406F /* 情非得已.lrc */,
+				CC0ADE4E1919EEE200835A63 /* 情非得已.mp3 */,
+				CC0ADE4F1919EEE200835A63 /* 倩女幽魂.mp3 */,
+				CC0ADE501919EEE200835A63 /* My All.mp3 */,
+			);
+			name = musics;
+			sourceTree = "<group>";
+		};
 		CC6041FE1918F0DC00ACE304 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +163,7 @@
 		CC6042091918F0DC00ACE304 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC0ADE561919F82E00835A63 /* AVFoundation.framework */,
 				CC60420A1918F0DC00ACE304 /* Foundation.framework */,
 				CC60420C1918F0DC00ACE304 /* CoreGraphics.framework */,
 				CC60420E1918F0DC00ACE304 /* UIKit.framework */,
@@ -116,7 +179,7 @@
 				CC60421A1918F0DC00ACE304 /* QYAppDelegate.m */,
 				CC60421C1918F0DC00ACE304 /* Main.storyboard */,
 				CC60421F1918F0DC00ACE304 /* QYViewController.h */,
-				CC6042201918F0DC00ACE304 /* QYViewController.m */,
+				CC0721E6191DBCD000FE406F /* QYViewController.m */,
 				CC6042221918F0DC00ACE304 /* Images.xcassets */,
 				CC6042111918F0DC00ACE304 /* Supporting Files */,
 			);
@@ -126,6 +189,8 @@
 		CC6042111918F0DC00ACE304 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC0ADE4B1919EEC200835A63 /* musics */,
+				CC60423F1918F4A700ACE304 /* Images */,
 				CC6042121918F0DC00ACE304 /* MusicPlayerObject-Info.plist */,
 				CC6042131918F0DC00ACE304 /* InfoPlist.strings */,
 				CC6042161918F0DC00ACE304 /* main.m */,
@@ -150,6 +215,27 @@
 				CC6042321918F0DC00ACE304 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC60423F1918F4A700ACE304 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CC6042401918F4C200ACE304 /* ImageBackground.jpg */,
+				CC9340BB191B2623002BB30F /* snow.png */,
+				CCC1743C1919098100F9B9F3 /* backgroundImage5.jpg */,
+				CC0ADE5C191A5D5900835A63 /* play.png */,
+				CC604242191903C600ACE304 /* all.png */,
+				CC0ADE5E191A733900835A63 /* menu.png */,
+				CC604243191903C600ACE304 /* left.png */,
+				CC604244191903C600ACE304 /* leftan.png */,
+				CC604246191903C600ACE304 /* random.png */,
+				CC0ADE5A191A5D2D00835A63 /* circle.png */,
+				CC604247191903C600ACE304 /* right.png */,
+				CC604248191903C600ACE304 /* rightan.png */,
+				CC604249191903C600ACE304 /* single.png */,
+				CC60424A191903C600ACE304 /* stop.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +315,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0ADE521919EEE200835A63 /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				CC0ADE5D191A5D5900835A63 /* play.png in Resources */,
+				CC604250191903C600ACE304 /* right.png in Resources */,
+				CC0ADE551919EEE200835A63 /* My All.mp3 in Resources */,
 				CC6042231918F0DC00ACE304 /* Images.xcassets in Resources */,
+				CC604252191903C600ACE304 /* single.png in Resources */,
+				CC9340BC191B2623002BB30F /* snow.png in Resources */,
+				CC0721E3191DBC9200FE406F /* 梁静茹-偶阵雨.lrc in Resources */,
+				CC6042411918F4C200ACE304 /* ImageBackground.jpg in Resources */,
+				CC0721E4191DBC9200FE406F /* 林俊杰-背对背拥抱.lrc in Resources */,
+				CC60424C191903C600ACE304 /* left.png in Resources */,
+				CC0ADE5B191A5D2D00835A63 /* circle.png in Resources */,
 				CC6042151918F0DC00ACE304 /* InfoPlist.strings in Resources */,
+				CC0721E5191DBC9200FE406F /* 情非得已.lrc in Resources */,
+				CC60424F191903C600ACE304 /* random.png in Resources */,
+				CC0ADE5F191A733900835A63 /* menu.png in Resources */,
+				CC0ADE531919EEE200835A63 /* 情非得已.mp3 in Resources */,
 				CC60421E1918F0DC00ACE304 /* Main.storyboard in Resources */,
+				CC60424D191903C600ACE304 /* leftan.png in Resources */,
+				CC0ADE541919EEE200835A63 /* 倩女幽魂.mp3 in Resources */,
+				CC604253191903C600ACE304 /* stop.png in Resources */,
+				CC60424B191903C600ACE304 /* all.png in Resources */,
+				CC0ADE511919EEE200835A63 /* 梁静茹-偶阵雨.mp3 in Resources */,
+				CC604251191903C600ACE304 /* rightan.png in Resources */,
+				CCC1743D1919098100F9B9F3 /* backgroundImage5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +360,7 @@
 			files = (
 				CC60421B1918F0DC00ACE304 /* QYAppDelegate.m in Sources */,
 				CC6042171918F0DC00ACE304 /* main.m in Sources */,
-				CC6042211918F0DC00ACE304 /* QYViewController.m in Sources */,
+				CC0721E7191DBCD000FE406F /* QYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicPlayerObject/MusicPlayerObject-Prefix.pch";
 				INFOPLIST_FILE = "MusicPlayerObject/MusicPlayerObject-Info.plist";
@@ -390,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MusicPlayerObject/MusicPlayerObject-Prefix.pch";
 				INFOPLIST_FILE = "MusicPlayerObject/MusicPlayerObject-Info.plist";
@@ -457,6 +567,7 @@
 				CC60423B1918F0DD00ACE304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC60423C1918F0DD00ACE304 /* Build configuration list for PBXNativeTarget "MusicPlayerObjectTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +576,7 @@
 				CC60423E1918F0DD00ACE304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface QYViewController : UIViewController
+
+@interface QYViewController : UIViewController<AVAudioPlayerDelegate,UITableViewDataSource,UITableViewDelegate>
 
 @end
